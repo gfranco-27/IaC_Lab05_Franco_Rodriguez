@@ -6,3 +6,6 @@ variable "api_port" {
   type = map(number)
 }
 
+variable "web_server_port" {
+  type = map(number)
+}
